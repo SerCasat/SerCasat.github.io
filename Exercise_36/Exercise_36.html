@@ -1,0 +1,71 @@
+<!-- Короче це типу оновлювана стрічка новин
+Новини лежать в папці News, це файли 1-new.html, 2-new.html, 3-new.html, .... 1050-new.html.... де більший номер це найсвіжіша новина 
+
+За допомогою JS скануються файли в папці News, а також кількість новин з файла quantity.txt який лежить теж в папці News 
+і створюється стрічка з заголовків новин на лист
+
+з заголовків - це бере текст з тегів <title>.... </title> а файлах "N"-new.html
+
+задача оновлення новин виглядає так
+я сворюю файл з новиною, називаю її першим вільним номером, наприклад вже є 1050 новин, тому я новий називаю 1051-new.html і кладу її в папку News 
+далі в файл quantity.txt пишу 1051
+і далі йде перебудова сторінки з новинами за допомогою JS
+тобто потрібно побудувати 43 сторінки з заголовками, на перших 42-х по 25 новин, на 43-й 1 новина :  1-new.html
+-->
+
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Новини</title>
+  </head>
+  <body>
+    <div id="news-container">Упссс, а JS виходить не запустився((( Тут мав бути список новин</div>
+    <script>
+      async function fetchNews() {
+        // Зчитуємо кількість новин з файла quantity.txt який поклали в папку News
+        const response = await fetch("News/quantity.txt");
+        const quantity = parseInt(await response.text());
+
+        // Генеримо заголовки новин
+        const newsContainer = document.getElementById("news-container");
+        const newsPerPage = 25;
+        const totalPages = Math.ceil(quantity / newsPerPage);
+
+        for (let page = 0; page < totalPages; page++) {
+          const pageDiv = document.createElement("div");
+          pageDiv.className = "news-page";
+          const start = page * newsPerPage + 1;
+          const end = Math.min(start + newsPerPage - 1, quantity);
+
+          for (let i = start; i <= end; i++) {
+            const newsLink = document.createElement("a");
+            newsLink.href = `News/${i}-new.html`;
+            // newsLink.target = "_blank"; // Відкривати в новій вкладці
+            newsLink.target = "_self"; // Відкривати в цій же вкладці
+
+            // Отримуємо назви новин з файлу .... зчитуємо вміст тегів  <title>.... </title>
+            const titleResponse = await fetch(`News/${i}-new.html`);
+            const titleText = await titleResponse.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(titleText, "text/html");
+            const title = doc.querySelector("title").textContent;
+
+            newsLink.textContent = title; // робимо заголовок посиланням
+            const newsItem = document.createElement("div");
+            newsItem.appendChild(newsLink);
+            pageDiv.appendChild(newsItem);
+          }
+          newsContainer.appendChild(pageDiv);
+        }
+      }
+
+      fetchNews();
+    </script>
+
+    <!--  якщо весь JS код винести в коремий файлик my_JS_code_script.js в папці script
+<script src="script/my_JS_code_script.js"></script>
+ -->
+  </body>
+</html>
