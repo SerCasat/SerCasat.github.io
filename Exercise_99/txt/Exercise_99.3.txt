@@ -1,0 +1,49 @@
+Lesson 2
+Part 1 with 2
+питати	;	ask
+відповідати	;	answer
+давати (давав)	;	give (gave)
+брати (брав)	;	take (took)
+допомагати	;	help
+надіятися	;	hope
+говорити (говорив)	;	speak (spoke)
+подорожувати	;	travel
+я (мені)	;	i (me)
+ви, ти, вам 	;	you
+він (йому)	;	he (him)
+вона (їй)	;	she (her)
+вони (їм)	;	they (them)
+ми (нам)	;	we (us)
+шо? який?	;	what?
+хто?	;	who?
+де? куди?	;	where?
+коли?	;	when?
+чому? навіщо?	;	why?
+як?	;	how?
+в (чомусь)	;	in
+до (куди, до чогось, до когось)	;	to
+звідки (від когось, від чогось, з чогось)	;	from
+тут, сюди	;	here
+там, туди	;	there
+я запитаю	;	i will ask
+ти питав?	;	did you ask?
+я не буду відповідати	;	i will not answer
+я відповів	;	i answered
+ти будеш відповідати?	;	will you answer?
+він не відповідає	;	he does not answer
+ми дали	;	we gave
+ви дасте?	;	will you give?
+вони не дадуть	;	they will not give
+я візьму	;	i will take
+я взяв	;	i took
+ти візьмеш?	;	will you take?
+я не візьму	;	i will not take
+я допоможу	;	i will help
+він не допоміг	;	he did not help
+він допоможе	;	he will help
+ти допоможеш?	;	will you help?
+я надіюсь	;	i hope
+він надіється	;	he hopes
+ти надієшся?	;	do you hope?
+я не надіявся	;	i did not hope
+я буду надіятися	;	i will hope

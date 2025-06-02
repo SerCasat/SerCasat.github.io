@@ -1,0 +1,48 @@
+Lesson 1
+Part 1 with 2
+працювати	;	work
+любити	;	love
+жити	;	live
+починати	;	start
+закінчувати	;	finish
+бачити (бачив)	;	see (saw)
+прийти (прийшов)	;	come (came)
+йти (йшов)	;	go (went)
+знати (знав)	;	know (knew)
+я бачу	;	i see
+він бачить	;	he sees
+я побачу	;	i will see
+я не побачу	;	i will not see
+я не бачу	;	i do not see
+він не бачить	;	he does not see
+ми не бачили	;	we did not see
+ти бачив?	;	did you see?
+ти бачиш?	;	do you see?
+ти побачиш?	;	will you see?
+я бачив	;	i saw
+я приходжу	;	i come
+я прийду	;	i will come
+ти прийдеш?	;	will you come?
+вона не приходила	;	she did not come
+він приходив?	;	did he come?
+я приходив. ти приходив	;	i came. you came
+я працюю	;	i work
+я не буду працювати	;	i will not work
+я відкриваю	;	i open
+я відкрию	;	i will open
+я відкрив	;	i opened
+ти відкриваєш?	;	do you open?
+вона відкриває?	;	does she open?
+ти відкрив?	;	did you open?
+ти вікдриєш?	;	will you open?
+я не відкрию	;	i will not open
+ми не відкривали	;	we did not open
+я закриваю	;	i close
+я закрию	;	i will close
+ти закриєш?	;	will you close?
+я не закрию	;	i will not close
+я закрив	;	i closed
+вона не закрила	;	she did not close
+ти закрив?	;	did you close?
+я не закриваю	;	i do not close
+він не закриває	;	he does not close

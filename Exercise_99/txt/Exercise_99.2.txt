@@ -1,0 +1,48 @@
+Lesson 1
+Part 2 with 2
+я буду знати	;	i will know
+ти знаєш?	;	do you know?
+він знає?	;	does he know?
+вона знає?	;	does she know?
+вона знає	;	she knows
+я не знав	;	i did not know
+я не буду знати	;	i will not know
+він знав	;	he knew
+я бачу	;	i see
+ти бачиш?	;	do you see?
+ти побачиш?	;	will you see?
+ти бачив?	;	did you see?
+я бачив	;	i saw
+він не бачив	;	he did not see
+він не бачить	;	he does not see
+він не побачить	;	he will not see
+ти підеш?	;	will you go?
+я піду	;	i will go
+він не піде	;	he will not go
+ти ходив?	;	did you go?
+я ходив	;	i went
+вона не ходила	;	she did not go
+він ходить?	;	does he go?
+він ходить	;	he goes
+вона не ходить	;	she does not go
+ми працювали	;	we worked
+ви працювали?	;	did you work?
+ми не працювали	;	we did not work
+ми будемо працювати	;	we will work
+він буде працювати?	;	will he work?
+він не буде працювати	;	he will not work
+він буде думати	;	he will think
+я буду жити	;	i will live
+вони не будуть жити	;	they will not live
+ти жив?	;	did you live?
+я жив	;	i lived
+вона живе?	;	does she live?
+вона живе	;	she lives
+ти будеш жити?	;	will you live?
+я закінчую	;	i finish
+вони не закінчують	;	they do not finish
+ви закінчите?	;	will you finish?
+ми закінчили	;	we finished
+вони не закінчили	;	they did not finish
+вона закінчує?	;	does she finish?
+вона не закінчує	;	she does not finish

@@ -1,0 +1,41 @@
+Lesson 5
+Part 1 with 2
+старий	;	old
+старіший	;	older
+найстарший	;	the oldest
+ніж	;	than
+красивий	;	beautiful
+красивіший	;	more beautiful
+найкрасивіший	;	the most beautiful
+хороший	;	good
+кращий	;	better
+найращий	;	the best
+поганий	;	bad
+гірший	;	worse
+найгірший	;	the worst
+потворний	;	ugly
+вчора	;	yesterday
+сьогодні 	;	today
+завтра	;	tomorrow
+зараз	;	now
+через 3 дні	;	in 3 days
+через 2 неділі	;	in 2 weeks
+через 4 місяці	;	in 4 months
+через 5 років	;	in 5 years
+3 дні тому	;	3 days ago
+2 неділі тому	;	2 weeks ago
+4 місяці тому	;	4 months ago
+5 років тому	;	5 years ago
+в 5 годин	;	at 5 o'clock
+в понеділок	;	on monday
+в травні	;	in may
+взимку	;	in winter
+до	;	before
+після	;	after
+понеділок	;	monday
+вівторок	;	tuesday
+середа	;	wednesday
+четвер	;	thursday
+пятниця	;	friday
+субота	;	saturday
+неділя	;	sunday
